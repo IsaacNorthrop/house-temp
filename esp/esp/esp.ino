@@ -5,8 +5,8 @@
 //#define analog_pin 5
 #define DHT11_PIN 2
 
-const char* ssid = "TELUS7A66"; //Enter SSID
-const char* password = "y7YXdupttvhJ"; //Enter 
+const char* ssid = ""; //Enter SSID
+const char* password = ""; //Enter 
 
 DHT dht11(DHT11_PIN, DHT11);
 
