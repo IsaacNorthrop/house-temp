@@ -2,5 +2,12 @@
 Full stack application that queries temperature sensors in my house
 
 Use ESP2866 Wifi nodes with DHT11 temp sensors powered by coin batteries
-These send data to a CloudAMQP instance that holds the data (make sure you're under a million monthly messages)
-Write a cpp app that talks to Cloud AMQP (might not even need this react might be able to do it) and displays the most recent data
+
+<img width="1200" height="859" alt="image" src="https://github.com/user-attachments/assets/a5ac87ea-db90-467e-9177-52a81ba28057" />
+
+
+
+These send data to a RaspberryPi web server.
+
+
+Write a cpp app that talks to the raspberry pi.
